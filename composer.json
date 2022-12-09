@@ -1,5 +1,5 @@
 {
-    "name": "FrameworkDesign/nova-menu-builder",
+    "name": "frameworkdesign/nova-menu-builder",
     "description": "Menu Builder Tool for Laravel Nova.",
     "keywords": [
         "laravel",
