@@ -14,7 +14,7 @@
             "name": "Matt Hadfield",
             "email": "matt.h@weareframework.co.uk",
             "role": "Head of Development"
-        },
+        }
     ],
     "require": {
         "php": ">=7.1.0"
