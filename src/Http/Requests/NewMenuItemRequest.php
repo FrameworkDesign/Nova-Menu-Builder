@@ -26,7 +26,7 @@ class NewMenuItemRequest extends FormRequest
     public function rules()
     {
         $rules = [
-            'menu_id' => 'required|exists:menus,id',
+            'menu_id' => 'required|exists:nova_menu_menus,id',
             'name'    => 'required',
             'type'    => 'required|in:link,route',
             'target'  => 'required|in:_self,_blank',

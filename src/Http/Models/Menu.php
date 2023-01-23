@@ -46,7 +46,7 @@ class Menu extends Model
      */
     public function parentItems(): HasMany
     {
-        return $this->hasMany(MenuItems::class)->whereNull('parent_id');
+        return $this->hasMany(MenuItems::class)->whereNull('parent_id')->orderBy('order', 'asc');
     }
 
     /**

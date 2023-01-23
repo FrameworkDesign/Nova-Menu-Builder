@@ -52,7 +52,7 @@ class MenuResource extends Resource
 
             Text::make(__('Name'), 'name')
                 ->sortable()
-                ->rules('required', 'max:255', 'unique:menus,name'),
+                ->rules('required', 'max:255', 'unique:nova_menu_menus,name'),
 
             Text::make(__('Slug'), 'slug')->hideWhenCreating()->hideWhenUpdating(),
 
