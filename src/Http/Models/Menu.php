@@ -9,6 +9,8 @@ use Infinety\MenuBuilder\Http\Models\MenuItems;
 
 class Menu extends Model
 {
+    protected $table = 'nova_menu_menus';
+
     /**
      * @var string
      */

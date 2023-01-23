@@ -11,6 +11,8 @@ use Illuminate\Support\Str;
 
 class MenuItems extends Model
 {
+    protected $table = 'nova_menu_menu_items';
+    
     /**
      * @var array
      */
